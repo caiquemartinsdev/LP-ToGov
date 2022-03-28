@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Lato';
+}
+
+body{
+    background-color:#f5f6fa ;
+}
+
+#header{
+    height: 70px;
+    background-color: #F5F6FA ;
+}
+
+#logo-togov{
+    width:150px;
+}
+
+#secao2,
+#secao3{
+    background-color: #F5F6FA ;
+    padding:70px 0;
+}
+
+#secao2 h2,
+#secao2 p{
+    margin:30px 0;
+}
+
+.video{
+    width: 90%;
+}
+
+.video-area{
+    position:relative;
+    height:0px;
+    padding:0px 0px 52.25%;
+}
+
+.video-area iframe{
+    position:absolute;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    border:0px;
+}
+
+#secao3{
+    background-color: #3F9BD5 ;
+}
+
+#secao3 h2{
+    padding: 0px 0px 40px 0px;
+}
+
+.box-secao3{
+    background-color: #eff1f4;
+    height:90%;
+}
+
+.box-secao3 h4{
+    color: #3F9BD5;
+}
+
+.box-secao3 img{
+    width:40%;
+}
+
+.box-secao3 img,
+.box-secao3 h4,
+.box-secao3 p{
+ margin-top: 20px;
+}
+
+#secao4 h2,
+#secao4 p{
+    margin-bottom: 30px;
+}
+
+#secao5{
+    margin-bottom: 70px;
+    border-top: 1px solid #EDEFF5;
+}
+
+#secao5-topicos{
+    margin-right: 40px;
+}
+
+#secao5 h2{
+    margin-top: 50px;
+    margin-bottom: 20px;;
+}
+
+#secao5-row1 p{
+margin-bottom: 50px;
+color:#3F9BD5;
+font-weight: 300;
+font-size: 18px;
+}
+
+#secao6{
+    padding:70px 0;
+    background-color: #edeff5;
+}
+
+#imagem-prefeitura img{
+    height: 70px;
+    margin-top:30px;
+}
+
+#imagem-prefeitura{
+    padding-top: 10px;;
+}
+
+#secao7{
+    padding:70px 0;
+    background-color: #3F9BD5;
+}
+
+#secao7-frase p{
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#secao7-frase span{
+    font-weight: 700;
+}
+
+#secao9{
+    background-color: #0a1926;
+    padding:70px 0px;
+}
+
+#secao9 img{
+    width:40%;
+}
+
+@media (max-width:992px){
+
+    .video-area iframe{
+        margin-top: 40px;
+    }
+
+    #secao4{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #secao4-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #secao4 h2{
+        margin-top: 30px;
+    }
+
+    #secao4 img{
+        width:100%;
+    }
+
+    #secao5-row2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #secao5-topicos{
+        text-align: center;
+    }
+
+    #img-mulher-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #img-mulher-container img{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #secao7 img{
+        width:90%;
+    }
+
+    #secao7-img,
+    #secao7-frase{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+}
